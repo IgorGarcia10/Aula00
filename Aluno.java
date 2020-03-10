@@ -1,10 +1,11 @@
+
 public class Aluno {
 	private String nome;
 	private int id;
 	
 	public Aluno(String nome, int id){
-		nome = nome;
-		id = id;
+		this.nome = nome;
+		this.id = id;
 	}
 	
 	public String getNome() {
